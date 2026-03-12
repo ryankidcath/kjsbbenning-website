@@ -3,6 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-white font-sans">
       <Navbar />
       <Hero />
+      <ProjectExperience />
       <Services />
       <ServiceArea />
       <WhyChooseUs />
@@ -416,5 +417,100 @@ function Footer() {
         &copy; {new Date().getFullYear()} KJSB Benning dan Rekan. Hak cipta dilindungi.
       </p>
     </footer>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   PROJECT EXPERIENCE
+───────────────────────────────────────────── */
+function ProjectExperience() {
+  const stats = [
+    {
+      value: "20+",
+      label: "Proyek Perumahan Tahun 2025",
+    },
+    {
+      value: "5.000 m² – 40 Ha",
+      label: "Luas Proyek",
+    },
+    {
+      value: "Kabupaten Cirebon",
+      label: "Wilayah Proyek",
+    },
+  ];
+
+  const projectServices = [
+    "Verifikasi luas untuk penyerahan PSU",
+    "Survey topografi lahan",
+    "Stake out site plan ke lapangan",
+    "Pemetaan untuk kebutuhan pengembangan perumahan",
+  ];
+
+  return (
+    <section className="bg-white px-6 py-20">
+      <div className="mx-auto max-w-6xl">
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+
+          {/* Left column — text content */}
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-widest text-[#2563eb]">
+              Pengalaman Lapangan
+            </span>
+            <h2 className="mt-2 text-3xl font-bold leading-tight text-[#1e3a5f] sm:text-4xl">
+              Pengalaman Pengukuran Proyek Perumahan
+            </h2>
+            <p className="mt-5 leading-relaxed text-slate-600">
+              KJSB Benning dan Rekan berpengalaman dalam pengukuran dan
+              pemetaan untuk proyek pengembangan perumahan di Kabupaten
+              Cirebon.
+            </p>
+            <p className="mt-3 leading-relaxed text-slate-600">
+              Pada tahun 2025 kami mengerjakan lebih dari 20 proyek perumahan
+              dengan luas proyek mulai dari 5.000 meter persegi hingga 40
+              hektar.
+            </p>
+
+            <ul className="mt-6 space-y-3">
+              {projectServices.map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#2563eb]/10 text-[#2563eb]">
+                    <svg
+                      className="h-3 w-3"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </span>
+                  <span className="text-slate-600">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Right column — stat cards */}
+          <div className="flex flex-col justify-center gap-4">
+            {stats.map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-2xl border border-slate-200 bg-slate-50 px-6 py-5"
+              >
+                <p className="text-2xl font-extrabold text-[#1e3a5f] sm:text-3xl">
+                  {stat.value}
+                </p>
+                <p className="mt-1 text-sm text-slate-500">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </div>
+    </section>
   );
 }
