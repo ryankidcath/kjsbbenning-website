@@ -117,6 +117,7 @@ const services = [
     description:
       "Layanan pengukuran luas tanah untuk kebutuhan sertifikat, jual beli tanah, pematokan batas tanah, dan verifikasi luas lahan.",
     href: "/jasa-ukur-tanah-cirebon",
+    label: "Lihat Detail",
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
@@ -169,6 +170,8 @@ const services = [
     title: "Survey Lahan Perumahan",
     description:
       "Layanan survey lengkap untuk pengembang perumahan, mulai dari verifikasi luas tanah sebelum pembelian, survey topografi, pematokan boundary lahan, stake out site plan, hingga verifikasi luas PSU sebelum penyerahan ke pemerintah daerah.",
+    href: "/survey-lahan-perumahan-cirebon",
+    label: "Pelajari Layanan",
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12 11.204 3.045c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -224,7 +227,7 @@ function Services() {
                   href={service.href}
                   className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[#2563eb] hover:text-[#1d4ed8] transition-colors"
                 >
-                  Lihat Detail
+                  {"label" in service ? service.label : "Lihat Detail"}
                   <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                   </svg>
