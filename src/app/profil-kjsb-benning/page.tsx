@@ -225,27 +225,15 @@ export default function ProfilKJSBBenning() {
             {/* Card body */}
             <div className="divide-y divide-slate-100 px-6">
               <div className="flex items-center justify-between py-4">
-                <span className="text-sm text-slate-500">Nama Kantor</span>
+                <span className="text-sm text-slate-500">Nama KJSB</span>
                 <span className="font-semibold text-[#0f172a]">
                   KJSB Benning dan Rekan
                 </span>
               </div>
               <div className="flex items-center justify-between py-4">
-                <span className="text-sm text-slate-500">Jenis Entitas</span>
+                <span className="text-sm text-slate-500">No. SK Menteri ATR/BPN</span>
                 <span className="font-semibold text-[#0f172a]">
-                  Kantor Jasa Surveyor Berlisensi
-                </span>
-              </div>
-              <div className="flex items-center justify-between py-4">
-                <span className="text-sm text-slate-500">Lisensi dari</span>
-                <span className="font-semibold text-[#0f172a]">
-                  Kementerian ATR/BPN RI
-                </span>
-              </div>
-              <div className="flex items-center justify-between py-4">
-                <span className="text-sm text-slate-500">No. SK Lisensi</span>
-                <span className="font-semibold text-[#0f172a]">
-                  SK No. 1529/SK-300.PU.04.01/XII/2021
+                  1529/SK-300.PU.04.01/XII/2021
                 </span>
               </div>
               <div className="flex items-center justify-between py-4">

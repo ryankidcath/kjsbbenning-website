@@ -215,14 +215,14 @@ export default function SurveyLahanPerumahan() {
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               {[
                 { value: "20+", label: "Proyek Perumahan", sub: "Tahun 2025" },
-                { value: "5.000 m²", label: "hingga 40 Ha", sub: "Skala Luas Proyek" },
-                { value: "Kab.", label: "Cirebon", sub: "Wilayah Proyek" },
+                { value: "5.000 m² – 40 Ha", label: "Skala Luas Proyek", sub: "Per proyek" },
+                { value: "Kabupaten Cirebon", label: "Wilayah Proyek", sub: "Jawa Barat" },
               ].map((stat) => (
                 <div
                   key={stat.label}
                   className="rounded-xl border border-[#2563eb]/20 bg-blue-50 px-6 py-5 text-center"
                 >
-                  <p className="text-2xl font-extrabold text-[#1e3a5f]">
+                  <p className="text-xl font-extrabold text-[#1e3a5f]">
                     {stat.value}
                   </p>
                   <p className="mt-1 font-semibold text-[#1e3a5f]">
