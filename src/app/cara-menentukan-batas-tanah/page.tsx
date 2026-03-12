@@ -253,7 +253,9 @@ export default function CaraMenentukanBatasTanah() {
 
       {/* ── FOOTER ── */}
       <footer className="border-t border-slate-100 bg-[#0f2744] px-6 py-8 text-center text-sm text-blue-200">
-        <p className="font-semibold text-white">KJSB Benning dan Rekan</p>
+        <Link href="/" className="font-semibold text-white hover:text-blue-200 transition-colors">
+          KJSB Benning dan Rekan
+        </Link>
         <p className="mt-1">
           Jasa Pengukuran dan Pemetaan Tanah · Cirebon, Jawa Barat
         </p>
