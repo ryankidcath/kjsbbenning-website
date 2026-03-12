@@ -388,6 +388,18 @@ function WhyChooseUs() {
             </div>
           ))}
         </div>
+
+        <div className="mt-10 text-center">
+          <Link
+            href="/profil-kjsb-benning"
+            className="inline-flex items-center gap-2 rounded-full border border-[#1e3a5f] px-7 py-3 text-sm font-semibold text-[#1e3a5f] transition-colors hover:bg-[#1e3a5f] hover:text-white"
+          >
+            Lihat Profil Kami
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+          </Link>
+        </div>
       </div>
     </section>
   );

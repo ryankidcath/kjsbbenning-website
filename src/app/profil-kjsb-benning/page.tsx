@@ -244,8 +244,8 @@ export default function ProfilKJSBBenning() {
               </div>
               <div className="flex items-center justify-between py-4">
                 <span className="text-sm text-slate-500">No. SK Lisensi</span>
-                <span className="rounded-full border border-dashed border-slate-300 bg-slate-50 px-3 py-1 text-sm text-slate-400 italic">
-                  ___________________
+                <span className="font-semibold text-[#0f172a]">
+                  SK No. 1529/SK-300.PU.04.01/XII/2021
                 </span>
               </div>
               <div className="flex items-center justify-between py-4">
