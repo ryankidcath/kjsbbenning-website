@@ -113,6 +113,17 @@ function Hero() {
 ───────────────────────────────────────────── */
 const services = [
   {
+    title: "Jasa Ukur Tanah",
+    description:
+      "Layanan pengukuran luas tanah untuk kebutuhan sertifikat, jual beli tanah, pematokan batas tanah, dan verifikasi luas lahan.",
+    href: "/jasa-ukur-tanah-cirebon",
+    icon: (
+      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+      </svg>
+    ),
+  },
+  {
     title: "Peta Bidang Tanah (PBT)",
     description:
       "Pembuatan peta bidang tanah resmi untuk kebutuhan sertifikasi dan administrasi pertanahan.",
@@ -123,17 +134,7 @@ const services = [
     ),
   },
   {
-    title: "Pengukuran Luas Tanah",
-    description:
-      "Pengukuran akurat luas dan batas tanah menggunakan instrumen survei berstandar tinggi.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
-      </svg>
-    ),
-  },
-  {
-    title: "Pemetaan Topografi",
+    title: "Survey Topografi",
     description:
       "Pemetaan kontur dan elevasi permukaan tanah untuk perencanaan proyek konstruksi dan infrastruktur.",
     icon: (
@@ -144,7 +145,7 @@ const services = [
     ),
   },
   {
-    title: "Foto Udara Drone",
+    title: "Pemetaan Drone",
     description:
       "Pengambilan citra udara beresolusi tinggi menggunakan drone untuk pemetaan area luas dan inspeksi lahan.",
     icon: (
@@ -155,12 +156,22 @@ const services = [
     ),
   },
   {
-    title: "GIS (Sistem Informasi Geografis)",
+    title: "Pemetaan GIS",
     description:
       "Pengolahan dan analisis data spasial berbasis GIS untuk pemetaan tematik dan perencanaan tata ruang.",
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+      </svg>
+    ),
+  },
+  {
+    title: "Survey Lahan Perumahan",
+    description:
+      "Layanan survey lengkap untuk pengembang perumahan, mulai dari verifikasi luas tanah sebelum pembelian, survey topografi, pematokan boundary lahan, stake out site plan, hingga verifikasi luas PSU sebelum penyerahan ke pemerintah daerah.",
+    icon: (
+      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12 11.204 3.045c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
       </svg>
     ),
   },
@@ -171,17 +182,6 @@ const services = [
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
-      </svg>
-    ),
-  },
-  {
-    title: "Jasa Ukur Tanah di Cirebon",
-    description:
-      "Layanan pengukuran luas tanah untuk kebutuhan sertifikat, jual beli tanah, pematokan batas tanah, dan verifikasi luas lahan.",
-    href: "/jasa-ukur-tanah-cirebon",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
       </svg>
     ),
   },
