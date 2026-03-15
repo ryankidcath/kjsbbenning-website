@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: "KJSB Benning dan Rekan | Jasa Pengukuran dan Pemetaan Tanah Cirebon",
   description:
     "KJSB Benning dan Rekan menyediakan layanan pengukuran tanah, Peta Bidang Tanah (PBT), pemetaan topografi, foto udara drone, GIS, dan konsultasi pertanahan di Cirebon.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

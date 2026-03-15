@@ -2,83 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Survey Lahan Perumahan Cirebon | KJSB Benning dan Rekan",
+  title: "Verifikasi PSU & Serah Terima ke DPKPP Cirebon | KJSB Benning",
   description:
-    "Jasa survey lahan perumahan di Cirebon untuk developer. Meliputi verifikasi luas tanah, survey topografi, stake out site plan, hingga verifikasi PSU.",
+    "Layanan verifikasi luas PSU pengembang perumahan sebelum serah terima ke DPKPP Kabupaten Cirebon. Kolaborasi KJSB Benning dengan pemda untuk fasos fasum.",
 };
 
-const layanan = [
-  {
-    no: "01",
-    title: "Verifikasi Luas Tanah Sebelum Pembelian",
-    desc: "Pengukuran untuk memastikan luas tanah sesuai dengan sertifikat atau klaim penjual sebelum developer melakukan transaksi.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
-      </svg>
-    ),
-  },
-  {
-    no: "02",
-    title: "Pematokan Boundary Lahan",
-    desc: "Penentuan batas lahan agar meminimalkan potensi sengketa atau perubahan luas di kemudian hari.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-      </svg>
-    ),
-  },
-  {
-    no: "03",
-    title: "Survey Topografi",
-    desc: "Pengukuran kontur tanah untuk kebutuhan perencanaan cut and fill serta perencanaan site plan.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5 10.5 2.25 12 7.5l3-3.75 2.25 4.5 1.5-1.5 3 6H3.75Z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 20.25h18" />
-      </svg>
-    ),
-  },
-  {
-    no: "04",
-    title: "Stake Out Site Plan",
-    desc: "Penentuan posisi jalan, kavling, dan fasilitas umum di lapangan berdasarkan gambar site plan.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
-      </svg>
-    ),
-  },
-  {
-    no: "05",
-    title: "Peta Bidang Tanah (PBT)",
-    desc: "Pengukuran dan pemetaan bidang tanah untuk proses sertifikasi di BPN.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
-      </svg>
-    ),
-  },
-  {
-    no: "06",
-    title: "Verifikasi Luas PSU",
-    desc: "Pengukuran ulang luas prasarana, sarana, dan utilitas umum sebelum diserahkan ke pemerintah daerah melalui DPKPP.",
-    href: "/verifikasi-psu-dpkpp-cirebon",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-      </svg>
-    ),
-  },
-];
-
 const whyUs = [
-  "Pengalaman survey perumahan di Kabupaten Cirebon",
-  "Memahami proses verifikasi PSU untuk DPKPP",
-  "Tim survey berpengalaman",
-  "Menggunakan peralatan survey modern",
-  "Proses kerja rapi dan terdokumentasi",
+  "Pengalaman verifikasi PSU pengembang perumahan di Kabupaten Cirebon",
+  "Pemahaman proses serah terima PSU dan persyaratan DPKPP",
+  "Lisensi KJSB resmi dari Kementerian ATR/BPN",
+  "Tim survey berpengalaman dengan peralatan modern",
+  "Dokumentasi rapi dan siap untuk administrasi pemda",
 ];
 
 function WhatsAppIcon() {
@@ -89,10 +23,9 @@ function WhatsAppIcon() {
   );
 }
 
-export default function SurveyLahanPerumahan() {
+export default function VerifikasiPsuDpkppCirebon() {
   return (
     <div className="min-h-screen bg-white">
-
       {/* ── 1. HERO ── */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#0f2744] via-[#1e3a5f] to-[#1e4976] px-6 pb-20 pt-14 text-white">
         <div
@@ -109,24 +42,27 @@ export default function SurveyLahanPerumahan() {
               Beranda
             </Link>
             <span>/</span>
-            <span className="text-blue-200">Layanan</span>
+            <Link href="/survey-lahan-perumahan-cirebon" className="hover:text-white transition-colors">
+              Layanan
+            </Link>
             <span>/</span>
-            <span className="text-white">Survey Lahan Perumahan</span>
+            <span className="text-white">Verifikasi PSU DPKPP Cirebon</span>
           </nav>
 
           <span className="inline-block rounded-full border border-blue-400/40 bg-blue-400/10 px-4 py-1 text-sm font-medium text-blue-300">
-            Khusus Pengembang Perumahan · Kabupaten &amp; Kota Cirebon
+            Verifikasi PSU · Kolaborasi DPKPP Cirebon
           </span>
 
           <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-            Survey Lahan Perumahan di Cirebon
+            Verifikasi PSU dan Serah Terima ke DPKPP Kabupaten Cirebon
           </h1>
 
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-blue-100">
-            KJSB Benning dan Rekan menyediakan layanan survey lahan lengkap
-            untuk pengembang perumahan di Kabupaten Cirebon dan Kota Cirebon.
-            Layanan mencakup seluruh tahapan pengembangan, mulai dari akuisisi
-            lahan hingga penyerahan PSU ke pemerintah daerah.
+            KJSB Benning dan Rekan berkolaborasi dengan DPKPP Kabupaten Cirebon
+            dalam layanan verifikasi luas PSU pengembang perumahan sebelum serah
+            terima ke pemerintah daerah. Kami memverifikasi di lapangan apakah
+            luas prasarana, sarana, dan utilitas umum (PSU) yang tercantum dalam
+            BAST sesuai dengan kondisi aktual di lokasi.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -137,7 +73,7 @@ export default function SurveyLahanPerumahan() {
               className="inline-flex items-center justify-center gap-2.5 rounded-full bg-[#25D366] px-7 py-3.5 text-base font-semibold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-[#1ebe5b]"
             >
               <WhatsAppIcon />
-              Konsultasi WhatsApp
+              Konsultasi via WhatsApp
             </a>
             <a
               href="#layanan"
@@ -149,56 +85,111 @@ export default function SurveyLahanPerumahan() {
         </div>
       </section>
 
-      {/* ── 2. SERVICES ── */}
+      {/* ── 2. BODY CONTENT ── */}
       <section id="layanan" className="bg-white px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-10 text-center">
-            <span className="text-sm font-semibold uppercase tracking-widest text-[#2563eb]">
-              Layanan Kami
-            </span>
-            <h2 className="mt-2 text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Layanan Survey untuk Pengembang Perumahan
+        <div className="mx-auto max-w-4xl space-y-12">
+          <div>
+            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
+              Apa Itu PSU dan Mengapa Verifikasi Penting?
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-slate-500">
-              Kami melayani seluruh kebutuhan survey teknis dari awal pengembangan
-              hingga serah terima PSU.
-            </p>
+            <div className="mt-4 space-y-4 text-slate-600 leading-relaxed">
+              <p>
+                PSU (prasarana, sarana, dan utilitas umum) adalah kewajiban
+                pengembang perumahan untuk menyediakan fasilitas sosial dan
+                fasilitas umum (fasos fasum) seperti jalan lingkungan, drainase,
+                taman, dan utilitas lainnya. Sebelum serah terima PSU ke
+                pemerintah daerah, luas dan kelengkapan fasilitas tersebut harus
+                diverifikasi agar sesuai dengan perjanjian dan site plan yang
+                disetujui.
+              </p>
+              <p>
+                Verifikasi luas PSU pengembang perumahan dilakukan untuk
+                memastikan bahwa apa yang diklaim developer dalam Berita Acara
+                Serah Terima (BAST) sesuai dengan kondisi di lapangan.
+                Ketidaksesuaian dapat menunda proses serah terima ke pemda dan
+                berpotensi menimbulkan masalah administrasi di kemudian hari.
+              </p>
+            </div>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {layanan.map((item) => {
-              const cardContent = (
-                <>
-                  <div className="mb-4 flex items-center gap-3">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-[#2563eb] transition-colors group-hover:bg-[#2563eb] group-hover:text-white">
-                      {item.icon}
-                    </div>
-                    <span className="text-xs font-bold tracking-widest text-slate-400">
-                      {item.no}
-                    </span>
-                  </div>
-                  <h3 className="font-bold text-[#0f172a]">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-500">
-                    {item.desc}
-                  </p>
-                </>
-              );
-              const cardClass =
-                "group flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md";
-              return item.href ? (
-                <Link
-                  key={item.no}
-                  href={item.href}
-                  className={cardClass}
-                >
-                  {cardContent}
-                </Link>
-              ) : (
-                <div key={item.no} className={cardClass}>
-                  {cardContent}
-                </div>
-              );
-            })}
+          <div>
+            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
+              Peran KJSB Benning dalam Verifikasi PSU
+            </h2>
+            <div className="mt-4 space-y-4 text-slate-600 leading-relaxed">
+              <p>
+                Sebagai Kantor Jasa Surveyor Berlisensi (KJSB), KJSB Benning dan
+                Rekan memiliki kewenangan untuk melakukan pengukuran dan
+                verifikasi teknis yang diakui secara hukum. Dalam konteks serah
+                terima PSU, kami melakukan pengukuran ulang di lapangan untuk
+                memastikan luas jalan, drainase, taman, dan fasos fasum lainnya
+                sesuai dengan dokumen perencanaan.
+              </p>
+              <p>
+                Hasil verifikasi kami dapat digunakan sebagai lampiran atau
+                pendukung dalam proses administrasi serah terima PSU ke DPKPP
+                Kabupaten Cirebon. Data pengukuran yang akurat dan terdokumentasi
+                membantu memperlancar proses penyerahan aset ke pemerintah daerah.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
+              Kolaborasi dengan DPKPP Kabupaten Cirebon
+            </h2>
+            <div className="mt-4 space-y-4 text-slate-600 leading-relaxed">
+              <p>
+                DPKPP (Dinas Perumahan, Kawasan Permukiman, dan Pertanahan)
+                Kabupaten Cirebon adalah instansi yang menerima serah terima PSU
+                dari pengembang perumahan. KJSB Benning dan Rekan memahami
+                prosedur dan persyaratan yang berlaku di DPKPP Cirebon, sehingga
+                hasil verifikasi kami disusun sesuai kebutuhan administrasi pemda.
+              </p>
+              <p>
+                Kolaborasi ini memungkinkan developer perumahan di Kabupaten dan
+                Kota Cirebon untuk menyiapkan dokumen verifikasi PSU dengan lebih
+                efisien. Dengan data pengukuran yang valid dari KJSB, proses
+                serah terima ke DPKPP dapat berjalan lebih lancar.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
+              Layanan Verifikasi PSU yang Kami Tawarkan
+            </h2>
+            <div className="mt-6 space-y-6">
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  Pengukuran Luas PSU di Lapangan
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  Pengukuran aktual luas prasarana (jalan, drainase), sarana
+                  (taman, fasilitas umum), dan utilitas sesuai site plan. Hasil
+                  pengukuran dibandingkan dengan klaim dalam BAST.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  Dokumentasi untuk Serah Terima ke Pemda
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  Penyusunan laporan dan peta hasil verifikasi yang dapat
+                  dilampirkan dalam proses serah terima PSU ke DPKPP Kabupaten
+                  Cirebon.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  Koordinasi dengan Proses Administrasi
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  Pemahaman terhadap alur dan persyaratan DPKPP Cirebon, sehingga
+                  output verifikasi siap digunakan dalam tahap administrasi pemda.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -211,7 +202,7 @@ export default function SurveyLahanPerumahan() {
               Rekam Jejak
             </span>
             <h2 className="mt-2 text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Pengalaman Proyek
+              Pengalaman dan Rekam Jejak
             </h2>
           </div>
 
@@ -220,17 +211,17 @@ export default function SurveyLahanPerumahan() {
               Pada tahun 2025, KJSB Benning dan Rekan menangani pekerjaan
               verifikasi dan survey untuk sekitar{" "}
               <strong className="text-[#1e3a5f]">20 proyek perumahan</strong> di
-              Kabupaten Cirebon. Proyek yang dikerjakan mencakup lahan dengan
-              luas mulai dari{" "}
-              <strong className="text-[#1e3a5f]">5.000 m² hingga 40 hektar</strong>,
-              meliputi berbagai skala pengembangan dari perumahan subsidi
-              hingga perumahan komersial.
+              Kabupaten Cirebon, termasuk verifikasi PSU untuk persiapan serah
+              terima ke DPKPP. Proyek mencakup berbagai skala pengembangan dari
+              perumahan subsidi hingga perumahan komersial, dengan luas lahan
+              mulai dari{" "}
+              <strong className="text-[#1e3a5f]">5.000 m² hingga puluhan hektar</strong>.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               {[
                 { value: "20+", label: "Proyek Perumahan", sub: "Tahun 2025" },
-                { value: "5.000 m² – 40 Ha", label: "Skala Luas Proyek", sub: "Per proyek" },
+                { value: "5.000 m² – 40+ Ha", label: "Skala Luas Proyek", sub: "Per proyek" },
                 { value: "Kabupaten Cirebon", label: "Wilayah Proyek", sub: "Jawa Barat" },
               ].map((stat) => (
                 <div
@@ -259,7 +250,7 @@ export default function SurveyLahanPerumahan() {
               Keunggulan Kami
             </span>
             <h2 className="mt-2 text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Mengapa Developer Memilih KJSB Benning dan Rekan
+              Mengapa Memilih KJSB Benning untuk Verifikasi PSU?
             </h2>
           </div>
 
@@ -287,9 +278,9 @@ export default function SurveyLahanPerumahan() {
                   </h3>
                   <p className="mt-2 leading-relaxed text-slate-600">
                     KJSB Benning dan Rekan memiliki lisensi resmi dari
-                    Kementerian ATR/BPN, sehingga hasil pekerjaan survey kami
-                    diakui secara hukum dan dapat digunakan langsung dalam
-                    proses administrasi pertanahan.
+                    Kementerian ATR/BPN, sehingga hasil pekerjaan verifikasi PSU
+                    kami diakui secara hukum dan dapat digunakan langsung dalam
+                    proses administrasi serah terima ke DPKPP.
                   </p>
                   <ul className="mt-4 space-y-2.5 text-sm text-slate-600">
                     {whyUs.map((item) => (
@@ -311,12 +302,12 @@ export default function SurveyLahanPerumahan() {
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl bg-gradient-to-br from-[#0f2744] via-[#1e3a5f] to-[#1e4976] px-8 py-12 text-center text-white">
             <h2 className="text-2xl font-bold sm:text-3xl">
-              Hubungi Kami
+              Konsultasikan Verifikasi PSU Anda
             </h2>
             <p className="mx-auto mt-4 max-w-lg leading-relaxed text-blue-100">
-              Konsultasikan kebutuhan survey lahan perumahan Anda dengan tim
-              kami. Kami siap membantu dari tahap akuisisi lahan hingga
-              verifikasi PSU.
+              Persiapkan serah terima PSU ke DPKPP Kabupaten Cirebon dengan
+              verifikasi yang akurat. Hubungi tim kami untuk konsultasi kebutuhan
+              verifikasi luas PSU pengembang perumahan Anda.
             </p>
             <a
               href="https://wa.me/6281122222122"
@@ -337,7 +328,10 @@ export default function SurveyLahanPerumahan() {
 
       {/* ── FOOTER ── */}
       <footer className="bg-[#0f2744] px-6 py-8 text-center text-sm text-blue-200">
-        <Link href="/" className="font-semibold text-white hover:text-blue-200 transition-colors">
+        <Link
+          href="/"
+          className="font-semibold text-white hover:text-blue-200 transition-colors"
+        >
           KJSB Benning dan Rekan
         </Link>
         <p className="mt-1">
