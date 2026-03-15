@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Verifikasi PSU & Serah Terima ke DPKPP Cirebon | KJSB Benning",
+  title: "Pengukuran Aset Pemda & BKAD Cirebon | KJSB Benning",
   description:
-    "Layanan verifikasi luas PSU pengembang perumahan sebelum serah terima ke DPKPP Kabupaten Cirebon. Kolaborasi KJSB Benning dengan pemda untuk fasos fasum.",
+    "Layanan pengukuran aset pemda, inventarisasi tanah jalan kabupaten, PBT aset daerah, dan sertifikasi tanah pemda. Kolaborasi BKAD dan DPKPP Cirebon.",
 };
 
 const whyUs = [
-  "Pengalaman verifikasi PSU pengembang perumahan di Kabupaten Cirebon",
-  "Pemahaman proses serah terima PSU dan persyaratan DPKPP",
-  "Lisensi KJSB resmi dari Kementerian ATR/BPN",
+  "Lisensi KJSB resmi dari Kementerian ATR/BPN—hasil pekerjaan diakui secara hukum",
+  "Pengalaman kolaborasi dengan BKAD Cirebon dan DPKPP",
+  "Alur kerja terstruktur: pengukuran → inventaris → PBT → sertifikat BPN",
   "Tim survey berpengalaman dengan peralatan modern",
   "Dokumentasi rapi dan siap untuk administrasi pemda",
 ];
@@ -23,7 +23,7 @@ function WhatsAppIcon() {
   );
 }
 
-export default function VerifikasiPsuDpkppCirebon() {
+export default function PengukuranAsetPemdaBkadCirebon() {
   return (
     <div className="min-h-screen bg-white">
       {/* ── 1. HERO ── */}
@@ -46,23 +46,24 @@ export default function VerifikasiPsuDpkppCirebon() {
               Layanan
             </Link>
             <span>/</span>
-            <span className="text-white">Verifikasi PSU DPKPP Cirebon</span>
+            <span className="text-white">Pengukuran Aset Pemda BKAD Cirebon</span>
           </nav>
 
           <span className="inline-block rounded-full border border-blue-400/40 bg-blue-400/10 px-4 py-1 text-sm font-medium text-blue-300">
-            Verifikasi PSU · Kolaborasi DPKPP Cirebon
+            Pengukuran Aset Pemda · BKAD &amp; DPKPP Cirebon
           </span>
 
           <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-            Verifikasi PSU dan Serah Terima ke DPKPP Kabupaten Cirebon
+            Pengukuran Aset Pemda dan Kolaborasi BKAD DPKPP Kabupaten Cirebon
           </h1>
 
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-blue-100">
-            KJSB Benning dan Rekan berkolaborasi dengan DPKPP Kabupaten Cirebon
-            dalam layanan verifikasi luas PSU pengembang perumahan sebelum serah
-            terima ke pemerintah daerah. Kami memverifikasi di lapangan apakah
-            luas prasarana, sarana, dan utilitas umum (PSU) yang tercantum dalam
-            BAST sesuai dengan kondisi aktual di lokasi.
+            KJSB Benning dan Rekan berkolaborasi dengan BKAD (Badan Keuangan dan
+            Aset Daerah) dan DPKPP Kabupaten Cirebon dalam layanan pengukuran
+            aset pemda, inventarisasi tanah jalan kabupaten, hingga penerbitan
+            PBT aset daerah dan pengawalan sertifikasi tanah pemda di BPN. Kami
+            mendukung dinas dan badan di pemda kabupaten Cirebon dalam
+            pengelolaan aset tanah yang akurat dan terdokumentasi.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -90,103 +91,116 @@ export default function VerifikasiPsuDpkppCirebon() {
         <div className="mx-auto max-w-4xl space-y-12">
           <div>
             <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Apa Itu PSU dan Mengapa Verifikasi Penting?
+              Peran BKAD dan DPKPP dalam Pengelolaan Aset Pemda
             </h2>
             <div className="mt-4 space-y-4 text-slate-600 leading-relaxed">
               <p>
-                PSU (prasarana, sarana, dan utilitas umum) adalah kewajiban
-                pengembang perumahan untuk menyediakan fasilitas sosial dan
-                fasilitas umum (fasos fasum) seperti jalan lingkungan, drainase,
-                taman, dan utilitas lainnya. Sebelum serah terima PSU ke
-                pemerintah daerah, luas dan kelengkapan fasilitas tersebut harus
-                diverifikasi agar sesuai dengan perjanjian dan site plan yang
-                disetujui.
+                BKAD (Badan Keuangan dan Aset Daerah) Kabupaten Cirebon
+                bertanggung jawab atas pengelolaan keuangan dan aset daerah,
+                termasuk tanah milik pemda seperti jalan kabupaten dan fasilitas
+                umum lainnya. DPKPP (Dinas Perumahan, Kawasan Permukiman, dan
+                Pertanahan) mengurusi aspek pertanahan dan permukiman. Keduanya
+                membutuhkan data pengukuran yang akurat untuk inventarisasi dan
+                sertifikasi tanah pemda.
               </p>
               <p>
-                Verifikasi luas PSU pengembang perumahan dilakukan untuk
-                memastikan bahwa apa yang diklaim developer dalam Berita Acara
-                Serah Terima (BAST) sesuai dengan kondisi di lapangan.
-                Ketidaksesuaian dapat menunda proses serah terima ke pemda dan
-                berpotensi menimbulkan masalah administrasi di kemudian hari.
+                Pengukuran aset pemda—terutama pengukuran jalan kabupaten dan
+                tanah milik daerah—merupakan langkah awal yang kritis. Tanpa data
+                ukur yang valid, proses inventarisasi tanah jalan kabupaten dan
+                penerbitan sertifikat di BPN akan terhambat. KJSB Benning dan
+                Rekan mendukung BKAD Cirebon dan instansi terkait dengan layanan
+                pengukuran teknis yang diakui secara hukum.
               </p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Peran KJSB Benning dalam Verifikasi PSU
-            </h2>
-            <div className="mt-4 space-y-4 text-slate-600 leading-relaxed">
-              <p>
-                Sebagai Kantor Jasa Surveyor Berlisensi (KJSB), KJSB Benning dan
-                Rekan memiliki kewenangan untuk melakukan pengukuran dan
-                verifikasi teknis yang diakui secara hukum. Dalam konteks serah
-                terima PSU, kami melakukan pengukuran ulang di lapangan untuk
-                memastikan luas jalan, drainase, taman, dan fasos fasum lainnya
-                sesuai dengan dokumen perencanaan.
-              </p>
-              <p>
-                Hasil verifikasi kami dapat digunakan sebagai lampiran atau
-                pendukung dalam proses administrasi serah terima PSU ke DPKPP
-                Kabupaten Cirebon. Data pengukuran yang akurat dan terdokumentasi
-                membantu memperlancar proses penyerahan aset ke pemerintah daerah.
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Kolaborasi dengan DPKPP Kabupaten Cirebon
-            </h2>
-            <div className="mt-4 space-y-4 text-slate-600 leading-relaxed">
-              <p>
-                DPKPP (Dinas Perumahan, Kawasan Permukiman, dan Pertanahan)
-                Kabupaten Cirebon adalah instansi yang menerima serah terima PSU
-                dari pengembang perumahan. KJSB Benning dan Rekan memahami
-                prosedur dan persyaratan yang berlaku di DPKPP Cirebon, sehingga
-                hasil verifikasi kami disusun sesuai kebutuhan administrasi pemda.
-              </p>
-              <p>
-                Kolaborasi ini memungkinkan developer perumahan di Kabupaten dan
-                Kota Cirebon untuk menyiapkan dokumen verifikasi PSU dengan lebih
-                efisien. Dengan data pengukuran yang valid dari KJSB, proses
-                serah terima ke DPKPP dapat berjalan lebih lancar.
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Layanan Verifikasi PSU yang Kami Tawarkan
+              Alur Kerja: Dari Pengukuran hingga Sertifikat BPN
             </h2>
             <div className="mt-6 space-y-6">
               <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
                 <h3 className="font-bold text-[#0f172a]">
-                  Pengukuran Luas PSU di Lapangan
+                  1. Pengukuran Aset Pemda di Lapangan
                 </h3>
                 <p className="mt-2 text-slate-600 leading-relaxed">
-                  Pengukuran aktual luas prasarana (jalan, drainase), sarana
-                  (taman, fasilitas umum), dan utilitas sesuai site plan. Hasil
-                  pengukuran dibandingkan dengan klaim dalam BAST.
+                  Langkah pertama adalah pengukuran jalan kabupaten dan aset
+                  tanah pemda lainnya di lapangan. Kami melakukan pengukuran
+                  batas, luas, dan posisi bidang tanah menggunakan peralatan
+                  survey modern. Hasil pengukuran menjadi dasar untuk langkah
+                  selanjutnya.
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
                 <h3 className="font-bold text-[#0f172a]">
-                  Dokumentasi untuk Serah Terima ke Pemda
+                  2. Inventarisasi Tanah Jalan Kabupaten
                 </h3>
                 <p className="mt-2 text-slate-600 leading-relaxed">
-                  Penyusunan laporan dan peta hasil verifikasi yang dapat
-                  dilampirkan dalam proses serah terima PSU ke DPKPP Kabupaten
-                  Cirebon.
+                  Data hasil pengukuran diolah menjadi dokumen inventaris yang
+                  sistematis. Inventarisasi tanah jalan kabupaten mencakup
+                  identifikasi lokasi, luas, batas, dan status aset. Dokumen ini
+                  mendukung BKAD Cirebon dalam pengelolaan dan pelaporan aset
+                  daerah.
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
                 <h3 className="font-bold text-[#0f172a]">
-                  Koordinasi dengan Proses Administrasi
+                  3. Penerbitan PBT Aset Daerah
                 </h3>
                 <p className="mt-2 text-slate-600 leading-relaxed">
-                  Pemahaman terhadap alur dan persyaratan DPKPP Cirebon, sehingga
-                  output verifikasi siap digunakan dalam tahap administrasi pemda.
+                  Peta Bidang Tanah (PBT) adalah dokumen teknis yang diperlukan
+                  untuk proses sertifikasi di BPN. Kami menyusun PBT aset daerah
+                  berdasarkan hasil pengukuran dan inventarisasi. PBT yang akurat
+                  memperlancar proses permohonan sertifikat tanah pemda.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  4. Pengawalan Sertifikasi Tanah Pemda di BPN
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  KJSB Benning dan Rekan dapat membantu mengawal proses
+                  sertifikasi tanah pemda di BPN. Dengan dokumen pengukuran dan
+                  PBT yang lengkap, proses permohonan sertifikat dapat berjalan
+                  lebih efisien.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
+              Layanan untuk BKAD Cirebon dan Instansi Pemda
+            </h2>
+            <div className="mt-6 space-y-6">
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  Pengukuran Jalan Kabupaten
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  Pengukuran jalan kabupaten meliputi pengukuran batas, lebar,
+                  panjang, dan luas jalan milik pemda. Data digunakan untuk
+                  inventarisasi aset dan keperluan administrasi pertanahan.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  Inventaris dan Identifikasi Aset Tanah
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  Penyusunan dokumen inventaris aset tanah pemda, termasuk
+                  identifikasi lokasi, status, dan kondisi. Mendukung BKAD dalam
+                  tugas pengelolaan aset daerah.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50/50 p-6">
+                <h3 className="font-bold text-[#0f172a]">
+                  PBT dan Sertifikasi BPN
+                </h3>
+                <p className="mt-2 text-slate-600 leading-relaxed">
+                  Penerbitan Peta Bidang Tanah (PBT) dan pendampingan proses
+                  sertifikasi tanah pemda di BPN. Hasil pekerjaan diakui secara
+                  hukum dan siap digunakan dalam administrasi pertanahan.
                 </p>
               </div>
             </div>
@@ -208,36 +222,13 @@ export default function VerifikasiPsuDpkppCirebon() {
 
           <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
             <p className="leading-relaxed text-slate-600">
-              Pada tahun 2025, KJSB Benning dan Rekan menangani pekerjaan
-              verifikasi dan survey untuk sekitar{" "}
-              <strong className="text-[#1e3a5f]">20 proyek perumahan</strong> di
-              Kabupaten Cirebon, termasuk verifikasi PSU untuk persiapan serah
-              terima ke DPKPP. Proyek mencakup berbagai skala pengembangan dari
-              perumahan subsidi hingga perumahan komersial, dengan luas lahan
-              mulai dari{" "}
-              <strong className="text-[#1e3a5f]">5.000 m² hingga puluhan hektar</strong>.
+              KJSB Benning dan Rekan memiliki pengalaman berkolaborasi dengan
+              BKAD dan DPKPP Kabupaten Cirebon dalam pekerjaan pengukuran aset
+              pemda. Proyek yang ditangani mencakup pengukuran jalan kabupaten,
+              inventarisasi tanah milik daerah, penerbitan PBT aset daerah, dan
+              pengawalan sertifikasi tanah pemda di BPN. Kami memahami prosedur
+              dan kebutuhan administrasi instansi pemda.
             </p>
-
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {[
-                { value: "20+", label: "Proyek Perumahan", sub: "Tahun 2025" },
-                { value: "5.000 m² – 40+ Ha", label: "Skala Luas Proyek", sub: "Per proyek" },
-                { value: "Kabupaten Cirebon", label: "Wilayah Proyek", sub: "Jawa Barat" },
-              ].map((stat) => (
-                <div
-                  key={stat.label}
-                  className="rounded-xl border border-[#2563eb]/20 bg-blue-50 px-6 py-5 text-center"
-                >
-                  <p className="text-xl font-extrabold text-[#1e3a5f]">
-                    {stat.value}
-                  </p>
-                  <p className="mt-1 font-semibold text-[#1e3a5f]">
-                    {stat.label}
-                  </p>
-                  <p className="mt-0.5 text-xs text-slate-500">{stat.sub}</p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -250,7 +241,7 @@ export default function VerifikasiPsuDpkppCirebon() {
               Keunggulan Kami
             </span>
             <h2 className="mt-2 text-2xl font-bold text-[#1e3a5f] sm:text-3xl">
-              Mengapa Memilih KJSB Benning untuk Verifikasi PSU?
+              Mengapa Memilih KJSB Benning untuk Pengukuran Aset Pemda?
             </h2>
           </div>
 
@@ -278,9 +269,9 @@ export default function VerifikasiPsuDpkppCirebon() {
                   </h3>
                   <p className="mt-2 leading-relaxed text-slate-600">
                     KJSB Benning dan Rekan memiliki lisensi resmi dari
-                    Kementerian ATR/BPN, sehingga hasil pekerjaan verifikasi PSU
-                    kami diakui secara hukum dan dapat digunakan langsung dalam
-                    proses administrasi serah terima ke DPKPP.
+                    Kementerian ATR/BPN, sehingga hasil pekerjaan pengukuran
+                    aset pemda kami diakui secara hukum dan dapat digunakan
+                    langsung dalam administrasi pemda.
                   </p>
                   <ul className="mt-4 space-y-2.5 text-sm text-slate-600">
                     {whyUs.map((item) => (
@@ -301,12 +292,13 @@ export default function VerifikasiPsuDpkppCirebon() {
       <section className="bg-slate-50 px-6 py-10">
         <div className="mx-auto max-w-4xl">
           <p className="text-center text-slate-600 leading-relaxed">
-            Pembaca DPKPP yang tertarik layanan pengukuran aset pemda, lihat{" "}
+            Untuk layanan verifikasi PSU pengembang perumahan sebelum serah
+            terima ke DPKPP, lihat{" "}
             <Link
-              href="/pengukuran-aset-pemda-bkad-cirebon"
+              href="/verifikasi-psu-dpkpp-cirebon"
               className="font-semibold text-[#2563eb] hover:text-[#1e3a5f] underline underline-offset-2 transition-colors"
             >
-              Pengukuran Aset Pemda &amp; BKAD Cirebon
+              Verifikasi PSU &amp; DPKPP Cirebon
             </Link>
             .
           </p>
@@ -318,12 +310,13 @@ export default function VerifikasiPsuDpkppCirebon() {
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl bg-gradient-to-br from-[#0f2744] via-[#1e3a5f] to-[#1e4976] px-8 py-12 text-center text-white">
             <h2 className="text-2xl font-bold sm:text-3xl">
-              Konsultasikan Verifikasi PSU Anda
+              Konsultasikan Kebutuhan Pengukuran Aset Pemda Anda
             </h2>
             <p className="mx-auto mt-4 max-w-lg leading-relaxed text-blue-100">
-              Persiapkan serah terima PSU ke DPKPP Kabupaten Cirebon dengan
-              verifikasi yang akurat. Hubungi tim kami untuk konsultasi kebutuhan
-              verifikasi luas PSU pengembang perumahan Anda.
+              BKAD, DPKPP, dan dinas terkait di Kabupaten Cirebon—hubungi tim kami
+              untuk konsultasi pengukuran aset pemda, inventarisasi tanah jalan
+              kabupaten, PBT aset daerah, dan sertifikasi tanah pemda. Kami siap
+              mendukung pengelolaan aset daerah yang akurat dan terdokumentasi.
             </p>
             <a
               href="https://wa.me/6281122222122"
@@ -335,8 +328,8 @@ export default function VerifikasiPsuDpkppCirebon() {
               Konsultasi via WhatsApp
             </a>
             <p className="mt-4 text-sm text-blue-200">
-              Respons cepat · Konsultasi gratis · Melayani Kota &amp; Kabupaten
-              Cirebon
+              Respons cepat · Konsultasi gratis · Melayani instansi pemda
+              Kabupaten &amp; Kota Cirebon
             </p>
           </div>
         </div>
