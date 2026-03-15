@@ -22,6 +22,10 @@ export const metadata: Metadata = {
     icon: "/logo.png",
     apple: "/logo.png",
   },
+  openGraph: {
+    siteName: "KJSB Benning dan Rekan",
+  },
+  applicationName: "KJSB Benning dan Rekan",
 };
 
 export default function RootLayout({
@@ -29,11 +33,24 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "KJSB Benning dan Rekan",
+    url: "https://kjsbbenning.id",
+  };
+
   return (
     <html lang="id">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
         <GlobalNavbar />
         {children}
         <WhatsAppButton />
