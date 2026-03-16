@@ -239,7 +239,7 @@ export default function ProfilKJSBBenning() {
               <div className="flex items-center justify-between py-4">
                 <span className="text-sm text-slate-500">Domisili</span>
                 <span className="font-semibold text-[#0f172a]">
-                  Cirebon, Jawa Barat
+                  Jl. Brigjen Darsono No. 72A, Desa Kertawinangun, Kec. Kedawung, Kab. Cirebon, Jawa Barat
                 </span>
               </div>
             </div>
